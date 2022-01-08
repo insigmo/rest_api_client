@@ -2,7 +2,9 @@ import logging
 
 from rest_api_client import HttpClient
 from .testapis import TestAPIs
-logger = logging.getLogger(__name__)
+
+
+logger = logging.getLogger('http_logger')
 
 
 class TestRestAPI(HttpClient):
